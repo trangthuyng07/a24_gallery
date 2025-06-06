@@ -4,8 +4,8 @@ $0
 
 function _filmSectionCarousel(datasets,html,d3)
 {
-  const width = 1100;
-  const defaultHeight = 1450
+  const width = 1000;
+  const defaultHeight = 1250
   
 
   const sections = [
