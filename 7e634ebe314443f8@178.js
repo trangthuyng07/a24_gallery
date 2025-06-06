@@ -5,7 +5,7 @@ $0
 function _filmSectionCarousel(datasets,html,d3)
 {
   const width = 1000;
-  const defaultHeight = 1250
+  const defaultHeight = 800
   
 
   const sections = [
@@ -38,7 +38,7 @@ function _filmSectionCarousel(datasets,html,d3)
         <div style="font-size: 35px; font-weight: 600; margin-bottom: 12px;">${title}</div>
         <div style="
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
           gap: 14px;
           max-height: ${maxGridHeight}px;
           overflow-y: auto;
